@@ -10,12 +10,12 @@
 ## Database Tier
 
 Amazon RDS: Create an RDS MySQL database instance to store and manage the application's data. Configure security groups to allow access from the backend tier and restrict access from the internet.
-#### Analytics Workload:
+## Analytics Workload:
 
 **Amazon EMR:** Set up an EMR cluster to run the Apache Hadoop-based analytics workload. Upload the data to be analyzed to Amazon S3, and configure the EMR cluster to read the data from S3. Install and configure Apache Hadoop and related tools on the EMR cluster to process and analyze the data.
 
 **Amazon QuickSight:** Use QuickSight, a visualization tool, to create interactive dashboards and visualizations based on the analyzed data. Connect QuickSight to the output of the analytics workload running on EMR.
-#### Additional Services:
+## Additional Services:
 
 **Amazon VPC:** Create a VPC to isolate and secure the various components of the architecture. Configure appropriate security groups and network access control lists (ACLs) to control inbound and outbound traffic.
 
